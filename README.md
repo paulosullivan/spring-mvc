@@ -29,8 +29,9 @@ Local Deployment
 ================
 No need for a standalone servlet container (given our use of the Maven Jetty Plugin).
 In eclipse, simply right-click on your project -> Run As -> Run Configurations -> Maven Build, and add jetty:run to the Goals textbox.
-Navigate to http://localhost:8080/healthCheck.html (to check if the app is up).
+Navigate to http://localhost:8080/spring-mvc/healthCheck (to check if the app is up).
 
 Extra Documentation
 ===================
 http://www.dineshonjava.com/2014/02/spring-4-framework-hello-world-example.html#.VTPUHCHBzRY
+http://stackoverflow.com/questions/5367309/cant-get-spring-mvc-dispatcher-to-work-properly-when-url-pattern-is-a-path

@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HealthCheckController {
 	
 	//@RequestMapping(method = RequestMethod.GET)
-	@RequestMapping("/healthCheck")
+	@RequestMapping("healthCheck")
 	public ModelAndView healthCheck() {
 		String message = "Spring MVC App is running!!!";
 		return new ModelAndView("healthCheck", "message", message);

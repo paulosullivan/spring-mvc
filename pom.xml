@@ -13,11 +13,6 @@
 	</properties>
 
 	<build>
-		<!--
-		<outputDirectory>src/main/webapp/WEB-INF/classes</outputDirectory>
-		<sourceDirectory>src/main/java</sourceDirectory>
-		<testSourceDirectory>src/test/java</testSourceDirectory>
-		-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
